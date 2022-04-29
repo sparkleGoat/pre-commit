@@ -2,6 +2,8 @@
 
 pre-commit hooks for various useful devops tools
 
+Adds to https://github.com/dj-wasabi/pre-commit-hooks, simple pass through of helm-unittest options, not just .
+
 **Table of contents**
 <!--TOC-->
 
