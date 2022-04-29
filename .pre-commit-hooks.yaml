@@ -1,0 +1,7 @@
+# This configuration file allows our pre-commit hooks to be used with pre-commit: http://pre-commit.com/
+
+- id: helm-unittest
+  name: helm unittest
+  description: Leverages helm-unittest, passes through options
+  entry: hooks/helm-unittest.sh
+  language: script
