@@ -13,18 +13,8 @@ parse_arguments() {
 		local VALUE="${1#*[ =]}"
 		if [[ "$PARAMETER" == "$VALUE" ]]; then VALUE="$2"; fi
 		shift
-		case "$PARAMETER" in
-		--enable)
 			enable_list="$enable_list $VALUE"
-			;;
-		-*)
-			echo "Error: Unknown option: $PARAMETER" >&2
-			exit 1
-			;;
-		*)
-			files="$files $PARAMETER"
-			;;
-		esac
+
 	done
 	enable_list="${enable_list## }" # remove preceeding space
 }
