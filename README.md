@@ -11,9 +11,7 @@ Adds to https://github.com/dj-wasabi/pre-commit-hooks, simple pass through of he
   - [Hooks](#hooks)
   - [Scripts](#scripts)
 - [Installation](#installation)
-  - [Supporting packages](#supporting-packages)
   - [Usage](#usage)
-    - [no-commit-on-branch](#no-commit-on-branch)
 
 <!--TOC-->
 
