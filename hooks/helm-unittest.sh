@@ -8,6 +8,6 @@ if which helm &> /dev/null $? != 0 ; then
     exit 1
 fi
 
-helm unittest "$@"
+helm unittest $1
 
 exit 0
